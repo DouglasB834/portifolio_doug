@@ -2,26 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+  }
+
+  .dark {
+  }
+}
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --color-bg: #1f1f38;
+  --color-bg2: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --color-sky-light: #00d1b2;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+}
+body {
+  background-color: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  background-repeat: no-repeat;
+}
+
+.iconsContact {
+  cursor: pointer;
+}
+
+.iconsContact::before {
+  content: "";
+  position: absolute;
+  background-color: var(--color-sky-light);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+.iconsContact:hover::before {
+  animation: clickIcon 1.5s ease-in-out infinite;
+}
+
+@keyframes clickIcon {
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* css imag background */
+@media (min-width: 1300px) {
+  .img-bg {
+    background-image: url("../../assets/imgbg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    object-fit: cover;
+    background-attachment: fixed;
+    background-size: 520px;
+  }
+}
+@media (min-width: 1600px) {
+  .img-bg {
+    transition: 0.3s linear;
+    background-size: 800px;
+  }
 }
