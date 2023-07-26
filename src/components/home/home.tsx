@@ -7,9 +7,9 @@ import { Email_whastapp } from "../iconsContact/email_whastapp";
 
 export const HomePage = () => {
   return (
-    <div className={`w-full h-full bg-cover `}>
+    <div className={`w-full  bg-cover `}>
       <Card
-        className={`img-bg  border-none flex flex-col sm:flex-row items-center gap-4 `}
+        className={`  border-none flex flex-col sm:flex-row items-center gap-4 `}
       >
         <div>
           <Avatar className="max-w-[250px] w-[100%] max-h-[250px] h-[100%]">
