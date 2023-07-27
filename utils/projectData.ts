@@ -38,7 +38,7 @@ export const projects: Project[] = [
     tech: "React.js,Style components,CSS, TypeScrpt, Figma, Deploy.",
   },
   {
-    title: "Ecommerce Roupa e Acacessorios ",
+    title: "E-commerce roupa e Acessórios ",
     link: "https://kenzie-academy-brasil-developers.github.io/m1-entrega-capstone-ecommerce-DouglasB834/",
     img: EcommerceSite,
     description:
