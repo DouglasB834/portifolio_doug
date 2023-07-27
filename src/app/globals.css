@@ -32,6 +32,51 @@ body {
   background-repeat: no-repeat;
 }
 
+.btnNav {
+  position: relative;
+}
+.btnNav::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s linear;
+  background-color: var(--color-white);
+}
+.btnNav:hover::after {
+  width: 100%;
+  background-color: var(--color-primary);
+}
+
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--color-primary); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-bg2); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid var(--color-sky-lightor-); /* creates padding around scroll thumb */
+}
+
+.stacks::-webkit-scrollbar {
+  height: 10px;
+}
+
+.stacks::-webkit-scrollbar-track {
+  background: var(--color-primary);
+}
+.stacks::-webkit-scrollbar-thumb {
+  background-color: var(--color-bg2);
+  border-radius: 20px;
+  border: 3px solid var(--color-sky-lightor-);
+}
+
 .iconsContact {
   cursor: pointer;
 }

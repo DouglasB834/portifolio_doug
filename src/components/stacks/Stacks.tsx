@@ -6,7 +6,7 @@ export const Stacks = () => {
     <Card className="flex flex-col gap-4 rounded-[5px] justify-center border-none mt-[1rem]  p-[2rem]  w-[100%] bg-slate-700 bg-opacity-10 ">
       <h3 className="text-2xl font-bold text-center">Skills</h3>
       <div className="h-[110px]">
-        <ul className="flex gap-4 overflow-y-auto">
+        <ul className="stacks flex gap-4 overflow-y-auto scroll-auto">
           {stacksData.map((stack, index) => (
             <li key={index} className="flex flex-col items-center gap-2">
               {

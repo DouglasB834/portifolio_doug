@@ -5,8 +5,11 @@ import { CardContent } from "../ui/card";
 
 export const Project = () => {
   return (
-    <div className="h-full mb-[5rem] ">
-      <h3 className="text-white text-[2rem] font-bold  text-center">
+    <div className="h-full mb-[4rem] ">
+      <h3
+        id="projects"
+        className="text-white text-[2rem] font-bold  text-center"
+      >
         Projetos
       </h3>
       <ul className=" flex flex-col  max-w-[1200px] m-auto ">
@@ -25,7 +28,7 @@ export const Project = () => {
               rel="noreferrer"
               className="p-4 "
             >
-              <figure className=" w-[100%]">
+              <figure className=" w-[100%]rounded-[5px]">
                 <Image
                   alt={project.title}
                   title={project.title}
@@ -47,9 +50,11 @@ export const Project = () => {
               </span>
               <a
                 href={project.link}
-                className="p-1 w-[100px] border border-sky-400   hover:text-sky-500 text-center transition ease-linear delay-1"
+                target="_blank"
+                rel="noreferrer"
+                className="p-1 w-[120px] border border-sky-400   hover:text-sky-500 text-center transition ease-linear delay-1 text-[1rem]"
               >
-                View Work
+                Veja o projeto
               </a>
             </CardContent>
           </li>

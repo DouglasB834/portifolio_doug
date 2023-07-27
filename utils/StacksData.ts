@@ -2,7 +2,7 @@ import { SiTypescript, SiStyledcomponents } from "react-icons/si";
 import { BiLogoPostgresql, BiLogoMongodb } from "react-icons/bi";
 import { TbBrandTailwind, TbBrandNextjs } from "react-icons/tb";
 import { FaHtml5, FaCss3Alt, FaJs, FaNode, FaReact } from "react-icons/fa";
-import { ReactNode } from "react";
+
 import { IconType } from "react-icons/lib";
 
 interface stack {

@@ -9,6 +9,7 @@ export const HomePage = () => {
   return (
     <div className={`w-full  bg-cover `}>
       <Card
+        id="home"
         className={`  border-none flex flex-col sm:flex-row items-center gap-4 `}
       >
         <div>
@@ -30,12 +31,12 @@ export const HomePage = () => {
             </h2>
 
             <h2 className="text-[2rem]  hidden sm:block  font-bold text-center w-[13ch] ">
+              <span className="text-sky-500"> {userData.nameUser}</span>{" "}
               Desenvolvedor Front
-              <span className="text-[#00d1b2]"> & </span>
-              ux/ui Designer.
+              <span className="text-[#00d1b2]"> & </span>Back End .
             </h2>
-            <p className="text-sky-500  pl-[1rem] text-[1rem] font-bold">
-              Localizado na Terra 🌎
+            <p className="text-sky-500  pl-[1rem] text-[1rem] font-bold w-[25ch]">
+              Experiéncia em desenvolvimento web e desktop.
             </p>
           </div>
           <div className="flex flex-col  gap-4">
