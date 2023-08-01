@@ -45,6 +45,7 @@ body {
   transition: 0.3s linear;
   background-color: var(--color-white);
 }
+
 .btnNav:hover::after {
   width: 100%;
   background-color: var(--color-primary);
