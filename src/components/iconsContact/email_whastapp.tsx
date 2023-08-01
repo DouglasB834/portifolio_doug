@@ -11,9 +11,7 @@ export const Email_whastapp = () => {
         <a
           className="pointer-events-auto"
           target="_blank"
-          onClick={() =>
-            (window.location.href = "mailto:douglas_borges@09@hotmail.com")
-          }
+          href="mailto:douglas_borges@09@hotmail.com"
         >
           <Image
             className="rounded-full"

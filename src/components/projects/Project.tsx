@@ -5,7 +5,7 @@ import { CardContent } from "../ui/card";
 
 export const Project = () => {
   return (
-    <div className="h-full mb-[4rem] ">
+    <div className="h-full mb-[4rem] z-[2] ">
       <h3
         id="projects"
         className="text-white text-[2rem] font-bold  text-center"
