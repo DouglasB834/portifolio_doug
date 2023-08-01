@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
       <BtnBackToUp />
 
-      <div className="flex flex-col m-auto w-[95%] ">
+      <div className="flex flex-col m-auto w-[95%] relative ">
         <ParticlesContainer />
         <div className="img-bg relative">
           <HomePage />
