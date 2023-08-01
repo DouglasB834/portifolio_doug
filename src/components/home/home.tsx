@@ -4,10 +4,11 @@ import { Avatar } from "../ui/avatar";
 import { userData } from "../../../utils/userData";
 import { Contact } from "../iconsContact/Contact";
 import { Email_whastapp } from "../iconsContact/email_whastapp";
+import { ParticlesContainer } from "../particles/ParticlesContainer";
 
 export const HomePage = () => {
   return (
-    <div className={`w-full  bg-cover `}>
+    <div className={`w-full  bg-cover`}>
       <Card
         id="home"
         className={`  border-none flex flex-col sm:flex-row items-center gap-4 `}
