@@ -1,9 +1,9 @@
 import React from "react";
 import { Card, CardContent, CardTitle } from "../ui/card";
 import Image from "next/image";
-import Cover1 from "../../../assets/Cover1.png";
-import Cover2 from "../../../assets/Cover2.png";
-import Cover3 from "../../../assets/Cover3.png";
+import Cover1 from "../../../public/assets/Cover1.png";
+import Cover2 from "../../../public/assets/Cover2.png";
+import Cover3 from "../../../public/assets/Cover3.png";
 
 export const About = () => {
   return (

@@ -1,7 +1,7 @@
-import AlbatravelSite from "../assets/AlbatravelSite.png";
-import EcommerceSite from "../assets/ecommerceSite.png";
-import hamburgueriaSite from "../assets/hamburgueriaSite.png";
-import pokedexSite from "../assets/pokedexSite.png";
+import AlbatravelSite from "../public/assets/AlbatravelSite.png";
+import EcommerceSite from "../public/assets/ecommerceSite.png";
+import hamburgueriaSite from "../public/assets/hamburgueriaSite.png";
+import pokedexSite from "../public/assets/pokedexSite.png";
 import { StaticImageData } from "next/image";
 
 interface Project {
