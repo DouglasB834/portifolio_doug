@@ -1,7 +1,7 @@
-import AlbatravelSite from "../assets/AlbatravelSite.png";
-import EcommerceSite from "../assets/ecommerceSite.png";
-import hamburgueriaSite from "../assets/hamburgueriaSite.png";
-import pokedexSite from "../assets/pokedexSite.png";
+import AlbatravelSite from "../public/assets/AlbatravelSite.png";
+import EcommerceSite from "../public/assets/ecommerceSite.png";
+import hamburgueriaSite from "../public/assets/hamburgueriaSite.png";
+import pokedexSite from "../public/assets/pokedexSite.png";
 import { StaticImageData } from "next/image";
 
 interface Project {
@@ -13,6 +13,14 @@ interface Project {
 }
 
 export const projects: Project[] = [
+  {
+    title: "E-commerce de Eletronicos",
+    link: "https://ecommerce-store-seven-lilac.vercel.app/",
+    img: EcommerceSite,
+    description:
+      "simula uma aplicação de compra de produtos eletrônicos online, como teclados, mouses, monitores e gabinetes. Foi criado um carrinho de compras para os produtos, juntamente com a integração do Stripe para o método de pagamento e verificação de funções, tudo feito pelo lado do servidor ",
+    tech: "HTML, CSS3, React.js, Next.js, TypeScript, Tailwind, Shadcn.ui, Lucide, Prisma, Node.js, PostgreSQL,  Figma.",
+  },
   {
     title: "Pokedex",
     link: "https://pokedex-inb.vercel.app/",
@@ -36,13 +44,5 @@ export const projects: Project[] = [
     description: `Um site simples desenvolvido em ReactJs que simula um E-commerce de uma hamburgueria, várias  funcionalidades foram aplicadas, filtro de produtos, notificação de pesquisa, adicionar e remover do carrinho, etc.
     `,
     tech: "React.js,Style components,CSS, TypeScrpt, Figma, Deploy.",
-  },
-  {
-    title: "E-commerce roupa e Acessórios ",
-    link: "https://kenzie-academy-brasil-developers.github.io/m1-entrega-capstone-ecommerce-DouglasB834/",
-    img: EcommerceSite,
-    description:
-      "Site de E-commerce desenvolvido para venda de roupas e acessórios em geral. filtro de produtos, adicionar e remover do carrinho",
-    tech: "HTML, CSS, JavaScript, Deploy.",
   },
 ];

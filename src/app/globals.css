@@ -110,7 +110,7 @@ body::-webkit-scrollbar-thumb {
 /* css imag background */
 @media (min-width: 1300px) {
   .img-bg {
-    background-image: url("../../assets/imgbg.png");
+    background-image: url("../../public/assets/imgbg.png");
     background-repeat: no-repeat;
     background-position: right;
     object-fit: cover;

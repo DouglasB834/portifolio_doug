@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
 import { userData } from "../../../utils/userData";
-import Whatsapp from "../../../assets/whatsapp.png";
-import Email from "../../../assets/Email.png";
+import Whatsapp from "../../../public/assets/whatsapp.png";
+import Email from "../../../public/assets/Email.png";
 
 export const Email_whastapp = () => {
   return (
