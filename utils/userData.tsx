@@ -1,8 +1,8 @@
 import { StaticImageData } from "next/image";
-import Github from "../assets/github.png";
-import Instagram from "../assets/instagram.png";
-import Linkeding from "../assets/linkedin.png";
-import FaceBook from "../assets/Bt-Circle.png";
+import Github from "../public/assets/github.png";
+import Instagram from "../public/assets/instagram.png";
+import Linkeding from "../public/assets/linkedin.png";
+import FaceBook from "../public/assets/Bt-Circle.png";
 
 export interface UserData {
   nameUser: string;
